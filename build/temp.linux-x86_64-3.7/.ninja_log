@@ -1,0 +1,27 @@
+# ninja log v5
+2	1032	1687943610589146492	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	2dd3cc233085ceab
+1	29475	1687943639025218549	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	72ca318ee4bcabf
+1	801	1688474664022684877	/mnt/sdc/yhson/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	fb031687d7e75c7b
+0	20195	1688474683406640406	/mnt/sdc/yhson/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	bc8bf6fa17228598
+0	923	1688478828945391012	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	2dd3cc233085ceab
+0	28082	1688478856097507929	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	72ca318ee4bcabf
+0	853	1688742636823117993	/mnt/sdb1/jhkim3/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	59bc5980283921b0
+0	20484	1688742656446971692	/mnt/sdb1/jhkim3/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	e94eb9628ee4da39
+0	874	1689088132322957048	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	2dd3cc233085ceab
+0	28210	1689088159650918389	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	72ca318ee4bcabf
+1	749	1689091961108315969	/mnt/sdb/jhkim9/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	72cc6f44a17124f2
+0	20697	1689091981045046833	/mnt/sdb/jhkim9/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	66bd7616618a21ff
+<<<<<<< HEAD
+1	708	1689099876625720753	/mnt/sda/jhkim13/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	bc73db3c26c42cf2
+0	20178	1689099896086171487	/mnt/sda/jhkim13/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	c192a1c5d66e855d
+=======
+1	663	1689141193396090204	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	2dd3cc233085ceab
+0	27245	1689141219968145068	/media/ddd/git/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	72ca318ee4bcabf
+<<<<<<< HEAD
+1	738	1690549526792055854	/mnt/sdd/yhson11/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	7afe2f2aee27dc8a
+0	20326	1690549546372526044	/mnt/sdd/yhson11/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	ad4c82f934045ace
+=======
+>>>>>>> 96f5d40b5e0d12714dbf59e60e833b60b958f9a0
+>>>>>>> ec3200061320eca23ba0d47cd8e2e4a7e39732bc
+1	764	1690956995946501690	/mnt/sdb/yhson11/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward_cuda.o	f24c0a6c54a05d19
+0	21082	1690957016250982250	/mnt/sdb/yhson11/spa_AeDet/build/temp.linux-x86_64-3.7/ops/voxel_pooling/src/voxel_pooling_forward.o	523fff78919affcc

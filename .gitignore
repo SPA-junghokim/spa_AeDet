@@ -1,0 +1,10 @@
+data/
+outputs/
+*/*.pyc
+*.pyc
+visual*/
+visual_heatmap/
+visual_result/
+visual_bev_polar/
+*/__pycache__/*
+.vscode/

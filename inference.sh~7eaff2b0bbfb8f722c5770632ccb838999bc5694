@@ -1,0 +1,366 @@
+VERSION=bc_pagelu_bagelu
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+
+VERSION=nc
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+VERSION=nc_daorigin
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+VERSION=nc_daprob_pa_ba
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+VERSION=bc
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+VERSION=bc_pa1x1_ba1x1
+
+python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+--ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+--neck_consistency \
+--to_pers_1x1 \
+--to_bev_1x1
+
+
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# VERSION=bc_daprob_pa
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --bev_consistency \
+# --use_da_prob \
+# --use_pa
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=bc_p1
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --bev_consistency \
+# --to_pers_1x1
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=nc_ba
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --neck_consistency \
+# --use_ba
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=nc_daprob
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --neck_consistency \
+# --use_da_prob
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=nc_daprob_pa_ba
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --neck_consistency \
+# --use_da_prob \
+# --use_pa \
+# --use_ba
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=nc_pa
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --neck_consistency \
+# --use_pa 
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+# VERSION=nc_pa_ba
+
+# python ./exps/aedet/aedet_lss_r50_256x704_128x128_24e_consis_7split.py -b 8 --gpus 1 \
+# --ckpt_path ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/ema_23.pth -e \
+# --neck_consistency \
+# --use_ba \
+# --use_pa 
+
+
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/results_nusc_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/results_nusc_${VERSION}.json
+# mv ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/metrics_summary_${VERSION}.json \
+# ./outputs/aedet_lss_r50_256x704_128x128_24e_consis_7split/for_inference/${VERSION}/metrics_summary_${VERSION}.json
+
+
+
+
+
+
+
+
+
